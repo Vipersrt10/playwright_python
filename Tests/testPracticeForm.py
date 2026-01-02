@@ -28,6 +28,7 @@ def testCheckBoxexpandAll(browser_fixtures):
         prac_form.filluserEmail('ravsolleti@gmail.com')
         prac_form.fillGender('male')
         prac_form.fillMobileNumber('1234567890')
+        prac_form.fillMobileNumber('0123456789')
         prac_form.datePicker()
         prac_form.fillHobbies('all')
         prac_form.fillcurrentAddress('mahadevapura,bangalore')
